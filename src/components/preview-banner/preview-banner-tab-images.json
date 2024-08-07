@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_preview_banner_preview_banner_tab_images",
+  "info": {
+    "displayName": "PreviewBannerTabImages"
+  },
+  "options": {},
+  "attributes": {
+    "desktop": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "tablet": {
+      "type": "string"
+    }
+  }
+}

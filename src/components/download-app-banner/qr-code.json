@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_download_app_banner_qr_codes",
+  "info": {
+    "displayName": "QrCode"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

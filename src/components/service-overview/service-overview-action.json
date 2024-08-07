@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_overview_service_overview_actions",
+  "info": {
+    "displayName": "ServiceOverviewAction"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon-name.icon-name"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "string"
+    }
+  }
+}

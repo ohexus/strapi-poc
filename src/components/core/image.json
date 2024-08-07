@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_core_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "src": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

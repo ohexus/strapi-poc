@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_service_overview_service_overview_cards",
+  "info": {
+    "displayName": "ServiceOverviewCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.image"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-overview.service-overview-action"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.link"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "button_variants",
+  "info": {
+    "singularName": "button-variant",
+    "pluralName": "button-variants",
+    "displayName": "ButtonVariant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "additional",
+        "primary-black",
+        "primary",
+        "secondary",
+        "tertiary"
+      ],
+      "required": true,
+      "default": "primary"
+    }
+  }
+}

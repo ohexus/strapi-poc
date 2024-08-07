@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_preview_banners",
+  "info": {
+    "displayName": "PreviewBanner"
+  },
+  "options": {},
+  "attributes": {
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tabs": {
+      "displayName": "PreviewBannerTab",
+      "type": "component",
+      "repeatable": true,
+      "component": "preview-banner.preview-banner-tab"
+    },
+    "hint": {
+      "type": "string",
+      "required": false
+    },
+    "actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "preview-banner.preview-banner-action"
+    }
+  }
+}

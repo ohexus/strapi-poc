@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_download_app_banners",
+  "info": {
+    "displayName": "DownloadAppBanner"
+  },
+  "options": {},
+  "attributes": {
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    },
+    "qrCode": {
+      "displayName": "QrCode",
+      "type": "component",
+      "repeatable": false,
+      "component": "download-app-banner.qr-code",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.image"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_company_advantages_advantage_cards",
+  "info": {
+    "displayName": "AdvantageCard"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon-name.icon-name"
+    },
+    "imgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.link"
+    }
+  }
+}

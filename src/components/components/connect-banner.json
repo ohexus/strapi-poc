@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_connect_banners",
+  "info": {
+    "displayName": "ConnectBanner"
+  },
+  "options": {},
+  "attributes": {
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.link"
+    }
+  }
+}

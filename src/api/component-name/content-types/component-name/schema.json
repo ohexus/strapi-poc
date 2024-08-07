@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "component_names",
+  "info": {
+    "singularName": "component-name",
+    "pluralName": "component-names",
+    "displayName": "componentName"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "componentName": {
+      "type": "enumeration",
+      "enum": [
+        "company-advantages",
+        "connect-banner",
+        "download-app-banner",
+        "feedback",
+        "news",
+        "partners-showcase",
+        "preview-banner",
+        "service-overview",
+        "slider"
+      ],
+      "required": true
+    }
+  }
+}

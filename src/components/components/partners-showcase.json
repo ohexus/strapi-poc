@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_partners_showcases",
+  "info": {
+    "displayName": "PartnersShowcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core.image"
+    },
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    }
+  }
+}

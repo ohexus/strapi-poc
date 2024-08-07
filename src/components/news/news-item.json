@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_news_news_items",
+  "info": {
+    "displayName": "NewsItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.image"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.link"
+    }
+  }
+}

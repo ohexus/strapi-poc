@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_slider_slider_items",
+  "info": {
+    "displayName": "SliderItem"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "src": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slider.slider-item-src"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

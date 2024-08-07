@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_feedbacks",
+  "info": {
+    "displayName": "Feedback",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "comment": {
+      "displayName": "Comment",
+      "type": "component",
+      "repeatable": false,
+      "component": "feedback.comment",
+      "required": true
+    },
+    "vimeoId": {
+      "type": "string",
+      "required": true
+    },
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    }
+  }
+}

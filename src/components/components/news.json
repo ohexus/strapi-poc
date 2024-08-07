@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_news",
+  "info": {
+    "displayName": "News"
+  },
+  "options": {},
+  "attributes": {
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "displayName": "NewsItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "news.news-item"
+    },
+    "bottomLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.link"
+    }
+  }
+}

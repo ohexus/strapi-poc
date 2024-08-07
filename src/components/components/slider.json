@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_sliders",
+  "info": {
+    "displayName": "Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    },
+    "items": {
+      "displayName": "SliderItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider-item"
+    }
+  }
+}

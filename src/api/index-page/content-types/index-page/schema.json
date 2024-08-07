@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "index_pages",
+  "info": {
+    "singularName": "index-page",
+    "pluralName": "index-pages",
+    "displayName": "Index Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "components.slider",
+        "components.service-overview",
+        "components.preview-banner",
+        "components.partners-showcase",
+        "components.news",
+        "components.feedback",
+        "components.download-app-banner",
+        "components.connect-banner",
+        "components.company-advantages"
+      ],
+      "required": true
+    }
+  }
+}

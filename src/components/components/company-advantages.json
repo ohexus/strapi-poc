@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_company_advantages",
+  "info": {
+    "displayName": "CompanyAdvantages"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "AdvantageCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "company-advantages.advantage-card"
+    },
+    "componentName": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-name.component-name"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_preview_banner_preview_banner_tabs",
+  "info": {
+    "displayName": "PreviewBannerTab"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon-name.icon-name"
+    },
+    "images": {
+      "displayName": "PreviewBannerTabImages",
+      "type": "component",
+      "repeatable": false,
+      "component": "preview-banner.preview-banner-tab-images"
+    }
+  }
+}
